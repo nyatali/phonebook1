@@ -1,0 +1,32 @@
+{
+  "name": "phonebook-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "json-server": "^0.12.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-react": "^0.80.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "mocha": "mocha",
+    "eject": "react-scripts eject",
+    "jsonserver": "json-server --watch db.json --port 8080",
+    "dev": "concurrently \"npm start\" \"npm run jsonserver\""
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "jsonserver": "^0.1.6",
+    "mocha": "^5.1.1",
+    "redux-logger": "^3.0.6"
+  }
+}
